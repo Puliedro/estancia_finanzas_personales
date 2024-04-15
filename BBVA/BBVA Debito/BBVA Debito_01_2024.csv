@@ -1,0 +1,61 @@
+Date,Description,Debit,Credit,Amount,Category Type,Category
+28/12/23,PAYPAL*DISCORD,159.0,0.0,-159.0,expenses,Technology
+28/12/23,PAYPAL *UBER,229.13,0.0,-229.13,expenses,Transportation
+28/12/23,AMAZON PRIME,99.0,0.0,-99.0,expenses,Technology
+29/12/23,PAGO CUENTA DE TERCERO,600.0,0.0,-600.0,expenses,Other
+29/12/23,PAGO CUENTA DE TERCERO,600.0,0.0,-600.0,expenses,Other
+02/01/24,PAYPAL*SPOTIFY,169.0,0.0,-169.0,expenses,Leisure and Entertainment
+03/01/24,RET CAJ OTRO BCO COM IVA,552.85,0.0,-552.85,expenses,Banking Services
+04/01/24,COMISION CAJERO RED,59.62,0.0,-59.62,expenses,Banking Services
+04/01/24,IVA POR COMISION,9.53,0.0,-9.53,expenses,Taxes
+08/01/24,D LOCAL*HBO MAX,179.0,0.0,-179.0,expenses,Technology
+09/01/24,PAGO CUENTA DE TERCERO,300.0,0.0,-300.0,expenses,Other
+09/01/24,PAGO CUENTA DE TERCERO,0.0,120.0,120.0,income,Other
+09/01/24,PAYPAL *UBER BV,68.63,0.0,-68.63,expenses,Transportation
+10/01/24,PAYPAL *UBER BV,115.2,0.0,-115.2,expenses,Transportation
+10/01/24,TCONE *COMERCIO 047991,21.0,0.0,-21.0,expenses,Supermarket
+11/01/24,PAGO CUENTA DE TERCERO,0.0,2190.0,2190.0,income,Other
+11/01/24,CANEK,20.0,0.0,-20.0,expenses,Other
+12/01/24,PAYPAL *UBER BV,94.12,0.0,-94.12,expenses,Transportation
+12/01/24,PAYPAL *UBER BV,35.97,0.0,-35.97,expenses,Transportation
+12/01/24,CANEK,24.0,0.0,-24.0,expenses,Other
+14/01/24,PAGO CUENTA DE TERCERO,195.0,0.0,-195.0,expenses,Other
+15/01/24,PAYPAL *UBER BV,76.22,0.0,-76.22,expenses,Transportation
+15/01/24,PAYPAL *UBER BV,35.73,0.0,-35.73,expenses,Transportation
+15/01/24,PAYPAL *UBER BV,58.64,0.0,-58.64,expenses,Transportation
+16/01/24,SPEI RECIBIDOCoDi Valida,0.0,0.01,0.01,income,Other
+16/01/24,SPEI ENVIADO BANORTE,84.0,0.0,-84.0,expenses,Other
+16/01/24,SPEI ENVIADO BANORTE,108.0,0.0,-108.0,expenses,Other
+16/01/24,PAGO CUENTA DE TERCERO,600.0,0.0,-600.0,expenses,Other
+16/01/24,PAYPAL *UBER BV,134.99,0.0,-134.99,expenses,Transportation
+16/01/24,CANEK,55.0,0.0,-55.0,expenses,Other
+17/01/24,PAGO CUENTA DE TERCERO,0.0,80.0,80.0,income,Other
+17/01/24,PAGO CUENTA DE TERCERO,0.0,85.0,85.0,income,Other
+17/01/24,PAYPAL *UBER BV,80.53,0.0,-80.53,expenses,Transportation
+18/01/24,PAGO CUENTA DE TERCERO,0.0,1000.0,1000.0,income,Other
+18/01/24,PAYPAL *UBER BV,54.14,0.0,-54.14,expenses,Transportation
+19/01/24,SAT,214.0,0.0,-214.0,expenses,Taxes
+19/01/24,PAYPAL *UBER BV,69.51,0.0,-69.51,expenses,Transportation
+19/01/24,YZA YUCALPETEN,143.51,0.0,-143.51,expenses,Health
+19/01/24,OXXO YUKALPETEN II,26.0,0.0,-26.0,expenses,Supermarket
+19/01/24,YZA YUCALPETEN,300.0,0.0,-300.0,expenses,Health
+22/01/24,PAYPAL *UBERBV EATS,328.0,0.0,-328.0,expenses,Food
+22/01/24,SC*CALIENTEMX2,150.0,0.0,-150.0,expenses,Other
+22/01/24,SC*CALIENTEMX2,100.0,0.0,-100.0,expenses,Other
+22/01/24,TELCEL 8HTPORTAL,279.0,0.0,-279.0,expenses,Technology
+22/01/24,PAYPAL *UBER BV,70.0,0.0,-70.0,expenses,Transportation
+23/01/24,SPEI RECIBIDOBANAMEX,0.0,103.0,103.0,income,Other
+23/01/24,PAGO CUENTA DE TERCERO,0.0,94.0,94.0,income,Other
+23/01/24,PAGO CUENTA DE TERCERO,0.0,300.0,300.0,income,Other
+23/01/24,PAYPAL*ALMIRONALMIRON,234.34,0.0,-234.34,expenses,Food
+23/01/24,PAYPAL *UBER BV,116.16,0.0,-116.16,expenses,Transportation
+24/01/24,PAGO CUENTA DE TERCERO,0.0,100.0,100.0,income,Other
+24/01/24,PAGO CUENTA DE TERCERO,0.0,277.0,277.0,income,Other
+24/01/24,PAYPAL*UBER BV,316.86,0.0,-316.86,expenses,Transportation
+24/01/24,PAYPAL *UBERBV EATS,164.25,0.0,-164.25,expenses,Food
+24/01/24,DEPOSITO DE TERCERO API,0.0,33551.53,33551.53,income,Other
+25/01/24,PAGO TARJETA DE CREDITO,23006.82,0.0,-23006.82,expenses,Banking Services
+25/01/24,PAGO INTERBANCARIO TDC,7000.0,0.0,-7000.0,expenses,Banking Services
+25/01/24,SPEI ENVIADO STP,4650.0,0.0,-4650.0,expenses,Transportation
+25/01/24,PAYPAL*UBER BV,0.0,119.1,119.1,income,Transportation
+26/01/24,PAYPAL *UBERBV EATS,235.0,0.0,-235.0,expenses,Food
