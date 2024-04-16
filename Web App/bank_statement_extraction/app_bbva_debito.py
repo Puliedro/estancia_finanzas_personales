@@ -143,9 +143,9 @@ def extract_and_clean_table(pdf_path, page, area, columns, column_names, min_yea
 
 def process_pdf_bbva_debito(pdf_path, user_id, conn):
     try:
-        logging.info('Starting to process the PDF.')
+        # logging.info('Starting to process the PDF.')
         min_year, max_year = extract_year_range_from_pdf(pdf_path)
-        logging.info(f'Extracted year range from PDF: {min_year}"-"{max_year}')
+        # logging.info(f'Extracted year range from PDF: {min_year}"-"{max_year}')
 
         column_names = ["Date", "Date1", "Description", "Reference", "Debit", "Credit", "Restos"]
         extended_columns = column_names + ["Amount", "Category Type", "Category"]  # Include the new Amount column
@@ -166,19 +166,19 @@ def process_pdf_bbva_debito(pdf_path, user_id, conn):
         # Drop the 'Restos', 'Date1', and 'Reference' columns before saving to CSV
         drop_columns = ['Restos', 'Date1', 'Reference']
         # After processing all pages and creating the all_tables DataFrame
-        logging.info(f'Processed DataFrame before dropping unnecessary columns: {all_tables.head()}')
+        # logging.info(f'Processed DataFrame before dropping unnecessary columns: {all_tables.head()}')
 
         # Perform your dropping of columns and any other processing
         all_tables.drop(columns=drop_columns, inplace=True, errors='ignore')
 
-        logging.info(f'Final DataFrame ready for insertion: {all_tables.head()}')
+        # logging.info(f'Final DataFrame ready for insertion: {all_tables.head()}')
 
         #Add the user_id to each row in the DataFrame
         all_tables['user_id'] = user_id  # This assigns the passed user_id to all rows
 
         # Now, when you call insert_transactions_into_database, each row will include 'user_id'
         insert_transactions_into_database(all_tables, conn)
-        logging.info('Successfully inserted data into the database.')
+        # logging.info('Successfully inserted data into the database.')
     except Exception as e:
         logging.error(f'Error in process_pdf_bbva_debito: {e}', exc_info=True)
 

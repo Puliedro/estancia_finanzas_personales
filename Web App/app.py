@@ -20,7 +20,7 @@ app.config['UPLOAD_FOLDER'] = os.path.join(BASE_DIR, 'UPLOAD_FOLDER')
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '',
+    'password': 'boliviano314',
     'database': 'finanzas_personales',
 }
 

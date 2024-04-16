@@ -176,3 +176,2405 @@ tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subpr
 tabula.backend - WARNING - No module named 'jpype'
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:49:47] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:49:47] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 00:01:21] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 00:01:21] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_debito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:37] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:37] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:38] "POST /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:40] "POST /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:46] "[33mGET /regiser HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:50] "GET /register HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:54] "[32mPOST /register HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:54] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:55] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:11:57] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:12:27] "[32mPOST /handle_transaction HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:12:27] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:13:31] "GET /upload_bank_statement HTTP/1.1" 200 -
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:13:46] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:13:46] "GET /upload_bank_statement HTTP/1.1" 200 -
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+122 (122) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+26 (26) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:19:40 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+110 (110) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+122 (122) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+22 (22) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+92 (92) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+117 (117) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:19:46 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+91 (91) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+117 (117) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+116 (116) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+22 (22) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+92 (92) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+76 (76) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:19:52 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+91 (91) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+116 (116) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:19:59 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+122 (122) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+91 (91) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+117 (117) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:05 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+26 (26) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+117 (117) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+22 (22) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+122 (122) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+92 (92) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+91 (91) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:11 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+76 (76) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+26 (26) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+117 (117) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:20:17 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+108 (108) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+110 (110) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+92 (92) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+93 (93) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:22 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+52 (52) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+18 (18) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+70 (70) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+110 (110) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+76 (76) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+47 (47) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+122 (122) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+26 (26) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+44 (44) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:27 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+
+tabula.backend - WARNING - Got stderr: Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+128 (128) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+66 (66) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+94 (94) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+1 (1) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+37 (37) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+114 (114) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+69 (69) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+90 (90) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+7 (7) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+38 (38) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+13 (13) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+54 (54) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+51 (51) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+12 (12) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+23 (23) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+4 (4) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+31 (31) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+48 (48) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+21 (21) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+14 (14) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+101 (101) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+24 (24) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+103 (103) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+25 (25) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+100 (100) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+121 (121) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+20 (20) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+127 (127) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+50 (50) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+57 (57) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+95 (95) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+36 (36) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+42 (42) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+10 (10) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+43 (43) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+22 (22) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+59 (59) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+88 (88) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+78 (78) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+33 (33) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+79 (79) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+72 (72) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+77 (77) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+97 (97) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+29 (29) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+67 (67) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+119 (119) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+56 (56) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+60 (60) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+98 (98) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+62 (62) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+109 (109) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+28 (28) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+15 (15) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+11 (11) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+75 (75) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+61 (61) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+17 (17) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+8 (8) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+53 (53) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+39 (39) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+110 (110) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+55 (55) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+86 (86) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+125 (125) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+92 (92) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+5 (5) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+6 (6) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+19 (19) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+126 (126) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+73 (73) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+123 (123) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+41 (41) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+104 (104) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+82 (82) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+63 (63) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+49 (49) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+113 (113) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+85 (85) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+91 (91) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+74 (74) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+46 (46) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+65 (65) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+105 (105) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+111 (111) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+76 (76) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+35 (35) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+107 (107) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+64 (64) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+40 (40) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+27 (27) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+58 (58) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+83 (83) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+3 (3) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+99 (99) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+9 (9) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+102 (102) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+30 (30) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+116 (116) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+2 (2) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+34 (34) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+71 (71) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+89 (89) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+120 (120) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+32 (32) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+115 (115) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+106 (106) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+68 (68) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+118 (118) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+96 (96) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+124 (124) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+87 (87) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+112 (112) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+80 (80) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+16 (16) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+84 (84) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+45 (45) in font AllAndNone
+Apr 16, 2024 1:20:33 PM org.apache.pdfbox.pdmodel.font.PDType0Font toUnicode
+WARNING: No Unicode mapping for CID+81 (81) in font AllAndNone
+
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:20:37] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:20:37] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:21:03] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:21:03] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:22:50] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:22:50] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:24:07] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:24:07] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\predictive_analysis.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\predictive_analysis.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:49:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:49:12] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:49:12] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:49:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 13:49:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 914-869-670
