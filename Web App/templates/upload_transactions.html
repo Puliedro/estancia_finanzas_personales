@@ -7,7 +7,7 @@
 
     <form action="{{ url_for('handle_transaction') }}" method="post">
         <label for="category_type">Transaction Type:</label>
-        <select name="category_type" id="category_type">
+        <select name="category_type" id="category_type" onchange="updateCategories();">
             <option value="income">Income</option>
             <option value="expenses">Expenses</option>
         </select>
@@ -22,9 +22,49 @@
         <input type="number" step="0.01" name="amount" id="amount" required>
 
         <label for="category">Category:</label>
-        <input type="text" name="category" id="category" required>
+        <select name="category" id="category"></select>
 
         <button type="submit">Submit</button>
     </form>
 </div>
+
+<script>
+    // Define categories for income and expenses
+    const incomeCategories = [
+        "Insurance", "Savings and Investments", "Salary", "Returns", "Bonus/Commission",
+        "Pension", "Social Security", "Royalties", "Alimony", "Freelance Income", "Other"
+    ];
+    const expenseCategories = [
+        "Food", "Housing", "Transportation", "Health", "Education", "Leisure and Entertainment",
+        "Clothing & Accessories", "Technology", "Travel", "Family Spending", "Gifts and Donations",
+        "Personal Spending", "Debts and Loans", "Supermarket", "Taxes", "Insurance",
+        "Telecommunications", "Banking Services", "Shopping", "Other"
+    ];
+
+    // Function to update category options based on transaction type
+    function updateCategories() {
+        const categoryType = document.getElementById('category_type').value;
+        const categorySelect = document.getElementById('category');
+        let options = '';
+
+        if (categoryType === 'income') {
+            incomeCategories.forEach(category => {
+                options += `<option value="${category}">${category}</option>`;
+            });
+        } else {
+            expenseCategories.forEach(category => {
+                options += `<option value="${category}">${category}</option>`;
+            });
+        }
+
+        categorySelect.innerHTML = options;
+    }
+
+    // Initialize categories when the page loads
+    document.addEventListener('DOMContentLoaded', function () {
+        updateCategories(); // This will load the initial set of categories based on the default selected transaction type
+    });
+</script>
+
 {% endblock %}
+

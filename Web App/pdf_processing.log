@@ -1,0 +1,102 @@
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:16] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:16] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:19] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:20] "GET /upload_bank_statement HTTP/1.1" 200 -
+root - INFO - Starting to process the PDF.
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+root - INFO - Extracted year range from PDF: 1900"-"1900
+root - INFO - Processed DataFrame before dropping unnecessary columns: Empty DataFrame
+Columns: [Date, Date1, Description, Reference, Debit, Credit, Restos, Amount, Category Type, Category]
+Index: []
+root - INFO - Final DataFrame ready for insertion: Empty DataFrame
+Columns: [Date, Description, Debit, Credit, Amount, Category Type, Category]
+Index: []
+root - INFO - Successfully inserted data into the database.
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:33] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:28:33] "GET /upload_bank_statement HTTP/1.1" 200 -
+root - INFO - Starting to process the PDF.
+root - INFO - Extracted year range from PDF: 2023"-"2024
+root - INFO - Processed DataFrame before dropping unnecessary columns:        Date     Date1             Description  ...  Amount  Category Type        Category
+0  28/12/23  27/12/23          PAYPAL*DISCORD  ... -159.00       expenses      Technology
+1  28/12/23  27/12/23            PAYPAL *UBER  ... -229.13       expenses  Transportation
+2  28/12/23  27/12/23            AMAZON PRIME  ...  -99.00       expenses      Technology
+3  29/12/23  29/12/23  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+4  29/12/23  29/12/23  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+
+[5 rows x 10 columns]
+root - INFO - Final DataFrame ready for insertion:        Date             Description   Debit  Credit  Amount Category Type        Category
+0  28/12/23          PAYPAL*DISCORD  159.00     0.0 -159.00      expenses      Technology
+1  28/12/23            PAYPAL *UBER  229.13     0.0 -229.13      expenses  Transportation
+2  28/12/23            AMAZON PRIME   99.00     0.0  -99.00      expenses      Technology
+3  29/12/23  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+4  29/12/23  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+root - ERROR - Error in process_pdf_bbva_debito: 'user_id'
+Traceback (most recent call last):
+  File "C:\Users\julio\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3629, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 136, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 163, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5198, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 5206, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'user_id'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\julio\Desktop\Estancia Finanzas Personales Dzul Tzuc\estancia_finanzas_personales\Web App\bank_statement_extraction\app_bbva_debito.py", line 177, in process_pdf_bbva_debito
+    insert_transactions_into_database(all_tables, conn)
+  File "C:\Users\julio\Desktop\Estancia Finanzas Personales Dzul Tzuc\estancia_finanzas_personales\Web App\bank_statement_extraction\app_bbva_debito.py", line 31, in insert_transactions_into_database
+    cursor.execute(sql, (row['Date'], row['Description'], row['Debit'], row['Credit'], row['Amount'], row['Category Type'], row['Category'], row['user_id']))
+  File "C:\Users\julio\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 958, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\julio\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\series.py", line 1069, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\julio\AppData\Local\Programs\Python\Python310\lib\site-packages\pandas\core\indexes\base.py", line 3631, in get_loc
+    raise KeyError(key) from err
+KeyError: 'user_id'
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:30:23] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:30:23] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_debito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:25] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:25] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:31] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:33] "GET /upload_bank_statement HTTP/1.1" 200 -
+root - INFO - Starting to process the PDF.
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+root - INFO - Extracted year range from PDF: 2024"-"2024
+root - INFO - Processed DataFrame before dropping unnecessary columns:        Date     Date1             Description  ...  Amount  Category Type        Category
+0  27/01/24  29/01/24  PAGO CUENTA DE TERCERO  ...  250.00         income           Other
+1  29/01/24  27/01/24     PAYPAL *UBERBV EATS  ... -398.00       expenses            Food
+2  29/01/24  27/01/24         PAYPAL *UBER BV  ...  -82.69       expenses  Transportation
+3  29/01/24  27/01/24            AMAZON PRIME  ...  -99.00       expenses      Technology
+4  29/01/24  29/01/24  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+
+[5 rows x 10 columns]
+root - INFO - Final DataFrame ready for insertion:        Date             Description   Debit  Credit  Amount Category Type        Category
+0  27/01/24  PAGO CUENTA DE TERCERO    0.00   250.0  250.00        income           Other
+1  29/01/24     PAYPAL *UBERBV EATS  398.00     0.0 -398.00      expenses            Food
+2  29/01/24         PAYPAL *UBER BV   82.69     0.0  -82.69      expenses  Transportation
+3  29/01/24            AMAZON PRIME   99.00     0.0  -99.00      expenses      Technology
+4  29/01/24  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+root - INFO - Successfully inserted data into the database.
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:49] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:49] "GET /upload_bank_statement HTTP/1.1" 200 -

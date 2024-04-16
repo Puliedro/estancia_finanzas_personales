@@ -1,0 +1,29 @@
+<!-- templates/upload_bank_statement.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h2>Upload Bank Statement</h2>
+    <p>If you have your bank statements, you can upload transactions by batch to make things easier.</p>
+    <p>Our application and AI will assist in adding a category to each one of them.</p>
+    <p>Note: that only a handful of banks are supported, please contact us to request the addition of a new bank!</p>
+
+    <form action="{{ url_for('handle_bank_statement') }}" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="bank_file">Bank Statement (PDF only):</label>
+            <input type="file" name="bank_file" id="bank_file" accept="application/pdf" required>
+        </div>
+
+        <div class="form-group">
+            <label for="bank_name">Select Bank:</label>
+            <select name="bank_name" id="bank_name">
+                <option value="bbva_debito">Tarjetas de Débito BBVA Bancomer</option>
+                <option value="bbva_credito">Tarjetas de Crédito BBVA Bancomer</option>
+                <option value="santander_debito">Tarjetas de Débito Santander</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}
