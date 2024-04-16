@@ -4,7 +4,20 @@ import tabula
 import re
 from bank_statement_extraction.app_category_mapping import category_mapping
 import numpy as np
+from datetime import datetime
+import pymysql
 
+
+def insert_transactions_into_database(df, conn):
+    """Insert DataFrame directly into MySQL database."""
+    with conn.cursor() as cursor:
+        for _, row in df.iterrows():
+            sql = """
+                INSERT INTO transactions (date, description, debit, credit, amount, category_type, category, user_id)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """
+            cursor.execute(sql, (row['Date'], row['Description'], row['Debit'], row['Credit'], row['Amount'], row['Category Type'], row['Category'], row['user_id']))
+        conn.commit()
 
 def clean_monetary_value(value):
     """Remove non-numeric characters and convert to float."""
@@ -56,10 +69,10 @@ def extract_and_clean_table(pdf_path, page, area, columns, column_names):
     return table
 
 
-def process_pdf_bbva_credito(pdf_path, output_csv_path):
-    """Process the entire PDF and save the data to a CSV file."""
+def process_pdf_bbva_credito(pdf_path, user_id, conn):
+    """Process the entire PDF and upload data to a SQL database."""
     column_names = ["Date1", "Date", "Description", "RFC", "Reference", "Debit", "Credit"]
-    extended_columns = column_names + ["Amount", "Category Type", "Category"]  # Include the new Amount column
+    extended_columns = column_names + ["Amount", "Category Type", "Category", "user_id"]  # Include user_id
 
     table_area = [100, 25.2, 753.84, 598.56]
     column_boundaries = [89.28, 151.2, 331.2, 417.6, 477.36, 534.96, 602.64]
@@ -74,8 +87,15 @@ def process_pdf_bbva_credito(pdf_path, output_csv_path):
         table = extract_and_clean_table(pdf_path, page, area, column_boundaries, column_names)
         all_tables = pd.concat([all_tables, table], ignore_index=True)
 
-    # Drop unused columns before saving to CSV
-    drop_columns = ['Restos', 'Date1', 'Reference', 'RFC']  # Assuming 'Restos' needs to be dropped
+    # Convert Date columns and format for SQL
+    all_tables['Date'] = pd.to_datetime(all_tables['Date']).dt.strftime('%Y-%m-%d')
+
+    # Add user_id to each row in the DataFrame
+    all_tables['user_id'] = user_id
+
+    # Drop unused columns
+    drop_columns = ['Date1', 'Reference', 'RFC']  # Adjust based on your requirements
     all_tables.drop(columns=drop_columns, inplace=True, errors='ignore')
 
-    all_tables.to_csv(output_csv_path, index=False)
+    # Insert data into the database
+    insert_transactions_into_database(all_tables, conn)

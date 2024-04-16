@@ -152,3 +152,27 @@ root - INFO - Final DataFrame ready for insertion:          Date             Des
 root - INFO - Successfully inserted data into the database.
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:09:12] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:09:12] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_credito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_credito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_credito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_credito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_credito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:49:47] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:49:47] "GET /upload_bank_statement HTTP/1.1" 200 -
