@@ -83,11 +83,11 @@ def spanish_date_to_datetime(date_str, min_year, max_year):
             date_str_numeric_month = date_str.replace(spanish_month, month_number)
             # Determine which year to use
             year_to_use = min_year if month_number != '01' or min_year == max_year else max_year
-            date_with_year = f"{date_str_numeric_month}/{year_to_use}"
+            date_with_year = f"{year_to_use}-{month_number}-{date_str.split('/')[0]}"
             try:
-                # Parse the date and convert it to the desired format
-                parsed_date = datetime.strptime(date_with_year, '%d/%m/%Y')
-                return parsed_date.strftime('%d/%m/%y')  # Changed format here
+                # Validate the date format by parsing it
+                parsed_date = datetime.strptime(date_with_year, '%Y-%m-%d')
+                return parsed_date.strftime('%Y-%m-%d')  # Correct format for SQL
             except ValueError:
                 return None
     return None

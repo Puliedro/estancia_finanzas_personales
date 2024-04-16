@@ -100,3 +100,55 @@ root - INFO - Final DataFrame ready for insertion:        Date             Descr
 root - INFO - Successfully inserted data into the database.
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:49] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
 werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 22:46:49] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\bank_statement_extraction\\app_bbva_debito.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 269-575-910
+root - INFO - Starting to process the PDF.
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+root - INFO - Extracted year range from PDF: 2023"-"2024
+root - INFO - Processed DataFrame before dropping unnecessary columns:          Date       Date1             Description  ...  Amount  Category Type        Category
+0  2023-12-28  2023-12-27          PAYPAL*DISCORD  ... -159.00       expenses      Technology
+1  2023-12-28  2023-12-27            PAYPAL *UBER  ... -229.13       expenses  Transportation
+2  2023-12-28  2023-12-27            AMAZON PRIME  ...  -99.00       expenses      Technology
+3  2023-12-29  2023-12-29  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+4  2023-12-29  2023-12-29  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+
+[5 rows x 10 columns]
+root - INFO - Final DataFrame ready for insertion:          Date             Description   Debit  Credit  Amount Category Type        Category
+0  2023-12-28          PAYPAL*DISCORD  159.00     0.0 -159.00      expenses      Technology
+1  2023-12-28            PAYPAL *UBER  229.13     0.0 -229.13      expenses  Transportation
+2  2023-12-28            AMAZON PRIME   99.00     0.0  -99.00      expenses      Technology
+3  2023-12-29  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+4  2023-12-29  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+root - INFO - Successfully inserted data into the database.
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:03:53] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:03:53] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:18] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:18] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:28] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:37] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:40] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:46] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:07:54] "GET /upload_bank_statement HTTP/1.1" 200 -
+root - INFO - Starting to process the PDF.
+root - INFO - Extracted year range from PDF: 2024"-"2024
+root - INFO - Processed DataFrame before dropping unnecessary columns:          Date       Date1             Description  ...  Amount  Category Type        Category
+0  2024-01-27  2024-01-29  PAGO CUENTA DE TERCERO  ...  250.00         income           Other
+1  2024-01-29  2024-01-27     PAYPAL *UBERBV EATS  ... -398.00       expenses            Food
+2  2024-01-29  2024-01-27         PAYPAL *UBER BV  ...  -82.69       expenses  Transportation
+3  2024-01-29  2024-01-27            AMAZON PRIME  ...  -99.00       expenses      Technology
+4  2024-01-29  2024-01-29  PAGO CUENTA DE TERCERO  ... -600.00       expenses           Other
+
+[5 rows x 10 columns]
+root - INFO - Final DataFrame ready for insertion:          Date             Description   Debit  Credit  Amount Category Type        Category
+0  2024-01-27  PAGO CUENTA DE TERCERO    0.00   250.0  250.00        income           Other
+1  2024-01-29     PAYPAL *UBERBV EATS  398.00     0.0 -398.00      expenses            Food
+2  2024-01-29         PAYPAL *UBER BV   82.69     0.0  -82.69      expenses  Transportation
+3  2024-01-29            AMAZON PRIME   99.00     0.0  -99.00      expenses      Technology
+4  2024-01-29  PAGO CUENTA DE TERCERO  600.00     0.0 -600.00      expenses           Other
+root - INFO - Successfully inserted data into the database.
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:09:12] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [15/Apr/2024 23:09:12] "GET /upload_bank_statement HTTP/1.1" 200 -
