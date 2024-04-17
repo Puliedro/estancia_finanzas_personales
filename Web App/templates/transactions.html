@@ -1,0 +1,30 @@
+<!-- templates/transactions.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Transactions</h1>
+<!-- Dropdown for selecting the month -->
+<select id="month-select">
+    <option value="">Select a Month</option>
+    {% for month in months %}
+    <option value="{{ month }}">{{ month }}</option>
+    {% endfor %}
+</select>
+
+<!-- Container to display the filtered data -->
+<div id="gastos-container"></div>
+
+<script>
+document.getElementById('month-select').addEventListener('change', function() {
+    const selectedMonth = this.value;
+    if (selectedMonth) {
+        fetch(`/get_gastos_mensuales/${selectedMonth}`)
+        .then(response => response.text())
+        .then(html => {
+            document.getElementById('gastos-container').innerHTML = html;
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    }
+});
+</script>
+{% endblock %}

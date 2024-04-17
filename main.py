@@ -3,7 +3,9 @@ import pymysql
 from eda import perform_eda  # Make sure eda.py is in the same directory as this file
 from transaction_classification import classify_transactions
 from expenses_analysis import analyze_expenses
-from predictions import simulate_savings
+# from predictions import simulate_savings
+from interactive_visuals import plot_income_expenses_line, plot_income_expenses_pie
+from personalized_recommendations import calculate_financial_recommendations
 
 def fetch_data(user_id):
     # Database connection values
@@ -35,10 +37,21 @@ def fetch_data(user_id):
 if __name__ == "__main__":
     user_id = 1  # Or parse this from command-line arguments/sys.argv if you prefer
     df_transactions = fetch_data(user_id)
-    # perform_eda(df_transactions)
-    # model, vectorizer, percent_spent = classify_transactions(df_transactions)
-    # forecast, gastos_ordenados = analyze_expenses(df_transactions)
-    summary_statistics = simulate_savings(df_transactions)
-    print(summary_statistics)
 
-#
+    # model, vectorizer, percent_spent = classify_transactions(df_transactions)
+    # summary_statistics = simulate_savings(df_transactions)
+    # print(summary_statistics)
+
+
+    # perform_eda(df_transactions)
+    # forecast, gastos_ordenados = analyze_expenses(df_transactions)
+    # plot_income_expenses_line(df_transactions)
+    # plot_income_expenses_pie(df_transactions)
+    gastos_mensuales, expenses_by_category, fondo_emergencia, excedente_invertir = calculate_financial_recommendations(df_transactions)
+
+    # Output the results
+
+    print(gastos_mensuales)
+    print(expenses_by_category)
+    print(f"Fondo de emergencia recomendado: {fondo_emergencia}")
+    print(f"Excedente para invertir: {excedente_invertir}")

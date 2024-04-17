@@ -2578,3 +2578,719 @@ werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Fin
 werkzeug - INFO -  * Restarting with stat
 werkzeug - WARNING -  * Debugger is active!
 werkzeug - INFO -  * Debugger PIN: 914-869-670
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:36] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:36] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:54] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:54] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:31:54] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:31] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:31] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:34] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:39] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:33:40] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:34:05] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 17:34:17] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_eda.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:27] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:27] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:27] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:27] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:57] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:16:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:17:51] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:18:01] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:18:02] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:19:25] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:19:26] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:19:27] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:19:29] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:20:24] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:20:24] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:20:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:20:27] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_expenses_analysis.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:24] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:24] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:27] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:37] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:40] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:41] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:31:44] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:02] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:04] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:04] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:07] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:43] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:36:45] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:07] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:09] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:13] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:37:14] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_expenses_analysis.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:38:00] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:38:00] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:38:07] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:38:08] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_interactive_visuals.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:54] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:54] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:57] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 19:56:57] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:28] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:28] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:30] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 20:00:30] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:22] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:22] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:26] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:50:26] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:06] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:06] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:06] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:10] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:53:10] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_interactive_visuals.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:07] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:07] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:11] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:33] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:33] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:36] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:36] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:36] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:54:36] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_interactive_visuals.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:33] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:33] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:35] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:37] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:56:37] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:07] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:07] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:10] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:11] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [16/Apr/2024 23:58:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:03] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:03] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:06] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:00:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:37] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:37] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:41] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:01:42] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_interactive_visuals.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:03:38] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app_personalized_recommendations.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:26] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:26] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:31] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:48:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:51:02] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:51:02] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:51:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:51:05] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:21] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:21] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:24] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:31] "[35m[1mGET /get_gastos_mensuales/2023-01 HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:31] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:54] "[35m[1mGET /get_gastos_mensuales/2023-02 HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:57:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:59:19] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:59:19] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:59:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:59:22] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 00:59:25] "GET /get_gastos_mensuales/2023-01 HTTP/1.1" 200 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:51] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:51] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:54] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:56] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:59] "[35m[1mGET /get_gastos_mensuales/%Y-%m HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:07:59] "GET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:08:23] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:10:20] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:10:21] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:10:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:10:23] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:10:58] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:11:39] "[35m[1mGET /get_gastos_mensuales/%Y-%m HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:11:39] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:03] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:07] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:13] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:13] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:23] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:25] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:26] "[35m[1mGET /get_gastos_mensuales/%Y-%m HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:21:26] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:28] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:28] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:31] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:39] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:48] "[35m[1mGET /get_gastos_mensuales/%Y-%m HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:33:49] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:04] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:04] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:05] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:07] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:13] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:37:18] "[31m[1mGET /get_gastos_mensuales/%Y-%m HTTP/1.1[0m" 400 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:07] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:07] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:08] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:10] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:11] "[35m[1mGET /transactions HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:11] "GET /transactions?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:11] "GET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:11] "[36mGET /transactions?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:34] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:34] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:38] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:39] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:41] "GET /get_gastos_mensuales/2023-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:47] "GET /get_gastos_mensuales/2023-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:55] "GET /get_gastos_mensuales/2023-12 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:57] "GET /get_gastos_mensuales/2023-06 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:43:58] "GET /get_gastos_mensuales/2024-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:44:00] "GET /get_gastos_mensuales/2023-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:44:02] "GET /get_gastos_mensuales/2023-06 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:44:20] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:44:21] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 01:44:32] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:49] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:49] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:54] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:04:54] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:40] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:40] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:52] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:53] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:05:53] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:16] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:16] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:17] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:19] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:19] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:46] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:46] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:08:51] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:34] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:35] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:36] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:52] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:52] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:09:55] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:14:38] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:14:48] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:14:54] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:15:57] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:28] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:30] "GET /get_gastos_mensuales/2023-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:30] "GET /get_gastos_mensuales/2023-08 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:33] "GET /get_gastos_mensuales/2024-01 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:34] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:37] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:59] "[32mGET /logout HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:16:59] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:08] "POST /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:13] "GET /register HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:31] "[32mPOST /register HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:31] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:17:39] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:20] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:20] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:26] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:27] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:27] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:26:27] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:49] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:49] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:55] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:28:55] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:12] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:12] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:17] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:17] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:25] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:25] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:25] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:25] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:35:25] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:15] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:15] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:23] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:37:23] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:21] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:21] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:28] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:38:28] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+werkzeug - INFO -  * Detected change in 'C:\\Users\\julio\\Desktop\\Estancia Finanzas Personales Dzul Tzuc\\estancia_finanzas_personales\\Web App\\app.py', reloading
+werkzeug - INFO -  * Restarting with stat
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:32] "[32mGET / HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:32] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:38] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:51] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:39:54] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:21] "[32mPOST /handle_transaction HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:21] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:44] "[32mPOST /handle_transaction HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:44] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:45] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:48] "GET /get_gastos_mensuales/2024-04 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:40:53] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:05] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:08] "GET /get_gastos_mensuales/2024-04 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:13] "[32mGET /logout HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:13] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:16] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:21] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:25] "GET /get_gastos_mensuales/2023-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:29] "GET /get_gastos_mensuales/2023-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:32] "GET /get_gastos_mensuales/2024-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:38] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:41] "[32mGET /logout HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:41] "GET /login HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:49] "[32mPOST /login HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:41:50] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+werkzeug - INFO - [33mPress CTRL+C to quit[0m
+werkzeug - INFO -  * Restarting with stat
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 296-181-925
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:10] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:14] "GET /get_gastos_mensuales/2024-04 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:15] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:16] "GET /upload_bank_statement HTTP/1.1" 200 -
+tabula.backend - WARNING - Error importing jpype dependencies. Fallback to subprocess.
+tabula.backend - WARNING - No module named 'jpype'
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:49] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:49] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:42:58] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:01] "GET /get_gastos_mensuales/2024-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:09] "GET /dashboard HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:17] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:19] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:23] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:39] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:39] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:46] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:48] "GET /get_gastos_mensuales/2024-04 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:49] "GET /get_gastos_mensuales/2024-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:43:51] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:21] "GET /get_gastos_mensuales/2024-04 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:28] "GET /get_gastos_mensuales/2024-03 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:30] "GET /upload_transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:32] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:49] "[32mPOST /handle_bank_statement HTTP/1.1[0m" 302 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:44:49] "GET /upload_bank_statement HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:48:22] "GET /transactions HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:48:25] "GET /get_gastos_mensuales/2024-01 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:48:28] "GET /get_gastos_mensuales/2024-02 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [17/Apr/2024 02:48:39] "GET /dashboard HTTP/1.1" 200 -
